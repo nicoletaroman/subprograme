@@ -1,0 +1,11 @@
+
+def factorial(a):
+    fact=1
+    for i in range(1,a+1):
+        fact= fact*i
+    return fact
+
+n=int(input("dati nr n:"))
+m=int(input("dati nr m:"))
+C=(factorial(n))/((factorial(m))*(factorial(n-m)))
+print(C)

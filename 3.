@@ -1,0 +1,10 @@
+a=int(input('dati nr'))
+b=int(input('dati nr'))
+c=int(input('dati nr'))
+d=int(input('dati nr'))
+def suma(x,y,z,k):
+    return ((x*k+y*z)/(y*k))
+def inmul(x,y,z,k):
+    return ((x*z)/(y*k))
+print("suma fractiilor=",suma(a,b,c,d))
+print("produsul fractiilor=",inmul(a,b,c,d))
